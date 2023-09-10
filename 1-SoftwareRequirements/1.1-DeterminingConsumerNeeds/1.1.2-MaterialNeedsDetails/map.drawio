@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T11:05:33.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="qwImtwEVcIQnC_CuBMV-" version="21.7.4" type="google">
+<mxfile host="app.diagrams.net" modified="2023-09-10T12:11:41.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 OPR/100.0.0.0" etag="2TDuda1JG8d3EO6vLsXq" version="21.7.4" type="google">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
             <mxPoint x="1672" y="237" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KxXHiPZeeXsI9hDlDG1h-1851" value="відповідь2" style="fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="KxXHiPZeeXsI9hDlDG1h-1851" value="харчування" style="fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1560" y="75.5" width="82" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KxXHiPZeeXsI9hDlDG1h-1852" value="їжа" style="fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
