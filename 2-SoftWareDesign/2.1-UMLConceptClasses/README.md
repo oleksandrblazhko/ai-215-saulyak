@@ -1,3 +1,3 @@
 ### UML-діаграма концептуальних класів
 
-![img](/2-SoftwareDesign/2.1-UMLConceptClasses/UML-ConceptClass.png)
+![img](/2-SoftWareDesign/2.1-UMLConceptClasses/UML-ConceptClass.png)
