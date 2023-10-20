@@ -1,0 +1,252 @@
+{
+  "title": "Record of user",
+  "description": "This document records the details of a user",
+  "type": "object",
+  "properties": {
+    "Users": {
+      "description": "User details",
+      "type": "object",
+      "properties": {
+        "user id": {
+          "type": "number",
+          "minimum": 0,
+          "properties": {
+            "login": {
+              "description": "Логін користувача",
+              "type": "string",
+              "pattern": "^[a-zA-Z][a-zA-Z0-9._-]{6,25}$"
+            },
+            "password": {
+              "description": "Пароль користувача",
+              "type": "string",
+              "pattern": "^(?=.*[a-z])(?=.*[A-Z])[A-Za-z!@#$%^&*()_+]{6,25}$"
+            },
+            "profilePhoto": {
+              "description": "Силка на зображення профіля користувача",
+              "type": "string",
+              "format": "uri"
+            },
+            "email": {
+              "description": "Електрона пошта користувача",
+              "type": "string",
+              "format": "email"
+            },
+            "userName": {
+              "description": "Нікнейм користувача користувача",
+              "type": "string",
+              "minLength": 6,
+              "maxLength": 20
+            }
+          },
+          "required": [
+            "login",
+            "password",
+            "profilePhoto",
+            "email",
+            "userName"
+          ]
+        }
+      },
+      "required": [
+        "user id"
+      ]
+    },
+    "Musician": {
+      "description": "Musician details",
+      "type": "object",
+      "properties": {
+        "musician id": {
+          "type": "number",
+          "minimum": 0,
+          "properties": {
+            "specialization": {
+              "description": "Жанр музиканта",
+              "type": "string",
+              "minLength": 6,
+              "maxLength": 20
+            },
+            "user id": {
+              "description": "Силка на дані музиканта як користувача",
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "specialization",
+            "user id"
+          ]
+        }
+      },
+      "required": [
+        "musician id"
+      ]
+    },
+    "Requests for the music videos": {
+      "description": "Musician request details",
+      "type": "object",
+      "properties": {
+        "music request id": {
+          "type": "number",
+          "minimum": 0,
+          "properties": {
+            "purpose": {
+              "description": "Текст запиту або ціль запиту ",
+              "type": "string",
+			        "minLength": 1,
+              "maxLength": 500
+            },
+            "date": {
+              "description": "Дата створення запиту",
+              "type": "string",
+			        "format": "date"
+            },
+            "user id": {
+              "description": "Номер користувача, який кинув запит",
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "purpose",
+            "date",
+            "user id"
+          ]
+        }
+      },
+      "required": [
+        "music request id"
+      ]
+    },
+    "Responses to music requests": {
+      "description": "Music response details",
+      "type": "object",
+      "properties": {
+        "music response id": {
+          "type": "number",
+          "minimum":0,
+          "properties": {
+            "response text": {
+              "description": "Текст відповіді на запит на музикальні вправи",
+              "type": "string",
+              "minLength":1,
+              "maxLength":500
+            },
+            "date": {
+              "description": "Дата відповіді на запит",
+              "type": "string",
+              "format":"date"
+            },
+            "request id": {
+              "description": "Номер запит,на який йде відповідь",
+              "type": "number",
+              "minimum":0
+            }
+          },
+          "required": [
+            "response text",
+            "date",
+            "request id"
+          ]
+        }
+      },
+      "required": [
+        "music response id"
+      ]
+    },
+    "Expense record": {
+      "description": "Expense record details",
+      "type": "object",
+      "properties": {
+        "exponse record id": {
+          "type": "number",
+          "minimum":0,
+          "properties": {
+            "purpose": {
+              "description": "Куди були витрачені гроші",
+              "type": "string",
+              "minLength":1,
+              "maxLength":50
+            },
+            "spent money": {
+              "description": "Гроші, витрачені на будь-яку покупку",
+              "type": "string",
+              "pattern":"^[0-9]+(?:\\.[0-9]{1,2})?$"
+            },
+            "date": {
+              "description": "Дата витрати",
+              "type": "string",
+              "format":"date"
+            },
+            "user id": {
+              "description": "Користувач,який зробив витрату",
+              "type": "number",
+              "minimum":0
+            }
+          },
+          "required": [
+            "purpose",
+            "spent money",
+            "date",
+            "user id"
+          ]
+        }
+      },
+      "required": [
+        "exponse record id"
+      ]
+    },
+    "Moneybox": {
+      "description": "Moneybox details",
+      "type": "object",
+      "properties": {
+        "moneybox id": {
+          "type": "number",
+          "minimum":0,
+          "properties": {
+            "user's money": {
+              "description": "Поточна кількість грошей користувача",
+              "type": "string",
+              "pattern":"^[0-9]+(?:\\.[0-9]{1,2})?$"
+            },
+            "user id": {
+              "description": "Користувач,для якого рахується поточний стан грошей",
+              "type": "number",
+              "minimum":0
+            }
+          },
+          "required": [
+            "user's money",
+            "user id"
+          ]
+        }
+      },
+      "required": [
+        "moneybox id"
+      ]
+    },
+    "User account balance": {
+      "description": "User account balance details",
+      "type": "object",
+      "properties": {
+        "balance message id": {
+          "type": "object",
+          "properties": {
+            "message with remaining money": {
+              "description": "Повідомлення с залишком грошей користувача",
+              "type": "string",
+              "minLength": 15,
+              "maxLength": 50
+              
+            }
+          },
+          "required": [
+            "message with remaining money"
+          ]
+        }
+      },
+      "required": [
+        "balance message id"
+      ]
+    }
+  }
+}
