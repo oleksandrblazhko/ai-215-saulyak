@@ -1,1 +1,3 @@
-![UmlActivityPuml](https://www.planttext.com/api/plantuml/png/dP8_JmCn3CNtV8etNeTAdU-aqYBKhLr0GenkprSYykUKE8ZZqvFaA0Ya3f3DyVFlsKusKIX8iaOfqM8OsvFeLoqJxZIT0rdSKpAQNfIgIjK-F3DIv01smY6Y9o68X-JxGRFf8_o0lNSytVgtRYuOWwymScIcTuvpCVSpgI0wA3sWsHg3tKpPQMEulraKiaCpSLme06sHV1fHA9v5rfLK0HoIFMRafGMiiVfDAATsHTOd9qLhgrP7d0DJxYnNaCEg-v8_iZbvovT1QHnhZaraDCv_SvzycWU2JL5mv6l8vNADl-woMhfU3-g7SNlm0hgwbdyvpJRvqVser2P7-Ozy0000)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai-215-saulyak/lab_work_7/2-SoftWareDesign/2.7-PlantUML/UML-Activity.puml)
+
+
