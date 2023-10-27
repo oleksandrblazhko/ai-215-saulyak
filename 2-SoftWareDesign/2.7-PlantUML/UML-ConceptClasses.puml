@@ -1,0 +1,34 @@
+@startuml
+
+hide circle
+title UML Concept Classes Sauliak
+
+Class User {
+    login
+    password
+}
+
+CLass AdditionalUserInfo {
+    profilePhoto
+    email
+    nickname
+}
+
+Class MusicVideosRequest {
+    requestText
+    date
+}
+
+Class Musician {
+    specialization
+}
+
+User <|-- Musician
+
+AdditionalUserInfo o-- User
+
+User"1" --> "*"MusicVideosRequest : send
+
+Musician"1" --> "*"MusicVideosRequest : review
+
+@enduml

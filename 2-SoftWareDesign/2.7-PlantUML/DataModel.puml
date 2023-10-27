@@ -1,0 +1,73 @@
+@startjson
+
+title JSON Data Sauliak
+{
+  "User": {
+    "id": "1",
+    "login": "user",
+    "password": "pswd",
+    "profilePhoto": "img",
+    "email": "email@mail.com",
+    "userName": "userName",
+    "Requests_for_the_music_videos": [
+      {
+        "id": "1",
+        "purpose": "Я бажаю отримати декілька музичних відео, будь ласка",
+        "date": "04.10.2023", 
+        "user id": "1"
+      },
+      {
+        "id": "2",
+        "purpose": "Я бажаю отримати декілька вправ з нотної грамоти!",
+        "date": "07.10.2023",
+        "user id": "1"
+      }
+    ],
+    "Expense record": [
+      {
+        "id": "1",
+        "purpose": "Огірки",
+        "spent money": "33.33",
+        "date": "25.10.2023",
+        "user id": "1"
+      },
+      {
+      "purpose": "Книга",
+      "spent money": "2015",
+      "date": "25.10.2023",
+      "user id": "1"
+    }
+    ],
+    "Moneybox": {
+      "id": "1",
+      "user's money": "1000000",
+      "user id": "1"
+    },
+    "User account balance": {
+      "id":"1",
+      "message with remaining money": "Ваш залишок на рахунку: 1000000 гривень"
+    }
+  },
+  "Musician": {
+      "id":"1",
+      "specialization": "Вчитель музики",
+      "user id": "2",
+      "Responses to music requests": [
+      {
+      "id":"1",
+      "response text": "Тримайте: ",
+      "date": "05.10.2023",
+      "request id": 1
+      },
+      {
+      "id":"2",
+      "response text": "Ось приклад" ,
+      "date": "07.10.2023",
+      "request id": 2
+      }
+    ]
+  }
+}
+
+
+@endjson

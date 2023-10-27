@@ -1,0 +1,16 @@
+@startuml
+
+title Usecase Sauliak
+left to right direction
+actor :User:
+
+rectangle Software {
+
+    usecase (Registration/Authorization)
+    usecase (Send a music advice request)
+
+   :User: -- (Registration/Authorization)
+   (Registration/Authorization) .> (Send a music advice request) : include
+}
+
+@enduml

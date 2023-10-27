@@ -1,0 +1,26 @@
+@startuml
+
+title Activity Diagram Sauliak
+
+start
+:The user enters data to the fields of MoneyBox;
+:The program analyzes entered user data; 
+if (All Fields Filled?) then (yes)
+   :All fields are filled;
+   if (Number of Money > 0) then (yes)
+       :The amount of money is greater than 0;
+       :Welcome to the app;
+   else (no)
+       :Your data must be greater than 0;
+       --> The user enters data to the fields of MoneyBox;
+
+   endif
+else (no)
+   :Not all fields are filled;
+   --> The user enters data to the fields of MoneyBox;
+
+endif
+
+stop
+
+@enduml
