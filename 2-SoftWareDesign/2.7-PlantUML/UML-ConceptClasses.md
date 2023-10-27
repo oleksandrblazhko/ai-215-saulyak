@@ -1,1 +1,2 @@
-![UmlConveptClassesPuml](https://www.planttext.com/api/plantuml/png/XP4_JmCn3CLtVmhhHgGRM152HPsGMga2oXubBhMQYu_OHn5_lZj9UZ2WIcJoStxFVb4MQYxRD4I0FGT2pzb70cEBXDlr2fUIF8s6o-XKIV71JP7T0Q0rSAkKyGEmd2ZFd5erbfkZv01V1LjLx3O4DfRaOZNSfPtCfZ7BZYDjzcBI6ZGuZgrAx0_93TIcj6NhITa_bPYYz_GoaTey9P_K8xrPqy7PNnkxDCCwKb6HtrrDLB7sYElFllz50SuabW9KSJ9qbnts_Grs5zsPN5Ueb0B0py3_w4olJ4U0HN6Lt_W6)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai-215-saulyak/lab_work_7/2-SoftWareDesign/2.7-PlantUML/UML-ConceptClasses.puml)
+
