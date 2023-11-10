@@ -2,9 +2,9 @@ package com.example.lab9tspp1.models
 
 import java.util.Date
 
-data class DanceVideosRequest(
+data class MusicVideosRequest(
     var id:Int,
-    var danceRequestText:String,
+    var musicRequestText:String,
     var dateRequest: Date,
     var user:User
 )
