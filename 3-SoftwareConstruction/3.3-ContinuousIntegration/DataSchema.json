@@ -1,0 +1,110 @@
+{
+  "Users": {
+    "1": {
+      "login": "login",
+      "password": "pswd",
+      "profilePhoto": "photo-url",
+      "email": "email@email",
+      "useName": "user"
+    }
+  },
+  "Music teacher": {
+    "1": {
+      "specialization": "Сопілка",
+      "user id": 1
+    }
+  },
+  "Requests for the music lesson": {
+    "1": {
+      "purpose": "Я бажаю отримати урок гри на сопілці, будь-ласка",
+      "date": "04.10.2023",
+      "user id": 1
+    },
+    "2": {
+      "purpose": "Я бажаю отримати урок з нотної грамоти!",
+      "date": "07.10.2023",
+      "user id": 1
+    }
+  },
+  "Responses to music lesson requests": {
+    "1": {
+      "response text": "Ось урок з гри на сопілці. URL",
+      "date": "10.10.2023",
+      "request id": 1
+    },
+    "2": {
+      "response text": "Ось урок з нотної грамоти. URL",
+      "date": "10.10.2023",
+      "request id": 2
+    }
+  },
+  "Expense record": {
+    "1": {
+      "purpose": "Творог",
+      "spent money": "99.57",
+{
+  "Users": {
+    "1": {
+      "login": "login",
+      "password": "pswd",
+      "profilePhoto": "photo-url",
+      "email": "email@email",
+      "useName": "user"
+    }
+  },
+  "Music teacher": {
+    "1": {
+      "specialization": "Сопілка",
+      "user id": 1
+    }
+  },
+  "Requests for the music lesson": {
+    "1": {
+      "purpose": "Я бажаю отримати урок гри на сопілці, будь-ласка",
+      "date": "04.10.2023",
+      "user id": 1
+    },
+    "2": {
+      "purpose": "Я бажаю отримати урок з нотної грамоти!",
+      "date": "07.10.2023",
+      "user id": 1
+    }
+  },
+  "Responses to music lesson requests": {
+    "1": {
+      "response text": "Ось урок з гри на сопілці. URL",
+      "date": "10.10.2023",
+      "request id": 1
+    },
+    "2": {
+      "response text": "Ось урок з нотної грамоти. URL",
+      "date": "10.10.2023",
+      "request id": 2
+    }
+  },
+  "Expense record": {
+    "1": {
+      "purpose": "Творог",
+      "spent money": "99.57",
+      "date": "29.09.2023",
+      "user id": 1
+    },
+    "2": {
+      "purpose": "Подушка",
+      "spent money": "250",
+      "date": "3.08.2023",
+      "user id": 1
+    }
+  },
+  "Moneybox": {
+    "1": {
+      "user's money": "829.5",
+      "user id": 1
+    }
+  },
+  "User account balance": {
+    "1": {
+      "message with remaining money": "Ваш залишок на рахунку: 829.5 гривень"
+    }
+  }
+}
