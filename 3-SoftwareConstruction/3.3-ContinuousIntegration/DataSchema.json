@@ -1,0 +1,66 @@
+{
+  "Users": {
+    "1": {
+      "login": "UndetectedMax",
+      "password": "12345678",
+      "profilePhoto": "url до фото користувача Undetectedmax",
+      "email": "email_adress@gmail.com",
+      "useName": "UndetectedMax"
+    }
+  },
+  "Сhoreographer": {
+    "1": {
+      "specialization": "Майстeр сучасних танців",
+      "user id": 1
+    }
+  },
+  "Requests for the dance videos": {
+    "1": {
+      "purpose": "Я бажаю отримати декілька вправ з сувчасних танців, будь-ласка",
+      "date": "04.10.2023",
+      "user id": 1
+    },
+    "2": {
+      "purpose": "Я бажаю отримати декілька вправ з хіп-хопу!",
+      "date": "07.10.2023",
+      "user id": 1
+    }
+  },
+  "Responses to dance requests": {
+    "1": {
+      "response text": "Тримайте: 1.https://www.youtube.com/watch?v=kRUitv97Bew&pp=ygUuINCy0L_RgNCw0LLQuCDQtyDRgdGD0YfQsNGB0L3QuNGXINGC0LDQvdGG0ZbQsg%3D%3D , 2. https://www.youtube.com/shorts/yfutcWdMc2E",
+      "date": "05.10.2023",
+      "request id": 1
+    },
+    "2": {
+      "response text": "Ось приклад: 1.https://www.youtube.com/watch?v=ZfisTVdaOUk&pp=ygUi0YXQuNC_INGF0L7QvyDRg9C_0YDQsNC20L3QtdC90LjRjw%3D%3D , 2.https://www.youtube.com/shorts/XivZe2hNKhQ",
+      "date": "07.10.2023",
+      "request id": 2
+    }
+  },
+  "Expense record": {
+    "1": {
+      "purpose": "Томати",
+      "spent money": "99.57",
+      "date": "29.09.2023",
+      "user id": 1
+    },
+    "2": {
+      "purpose": "Кружка Зоряні війни ",
+      "spent money": "250",
+      "date": "3.08.2023",
+      "user id": 1
+    }
+  },
+  "Moneybox": {
+    "1": {
+      "user's money": "8259.57",
+      "user id": 1
+    }
+  },
+  "User account balance": {
+    "1": {
+      "message with remaining money": "Ваш залишок на рахунку: 8259.57 гривень"
+    }
+  }
+}
